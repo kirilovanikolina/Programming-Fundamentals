@@ -1,5 +1,4 @@
-using System;
-					
+using System;			
 public class Program
 {
 	public static void Main()
@@ -8,7 +7,6 @@ public class Program
 		uint second = uint.Parse(Console.ReadLine());
 		int third = int.Parse(Console.ReadLine());
 		long fourth = long.Parse(Console.ReadLine());
-		
 		Console.WriteLine($"{first} {second} {third} {fourth}");
 	}
 }
